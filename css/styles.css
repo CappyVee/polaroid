@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  background-image: url('../img/cork-board.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picture {
+  position: relative;
+
+}
+
+.polaroid-frame {
+  position: absolute;
+}
+
+.flamingo {
+  position: absolute;
+  z-index: -1;
+  width: 650px;
+  height: auto;
+  top: 110px;
+  left: 125px;
+}
